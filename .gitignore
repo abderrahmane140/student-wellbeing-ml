@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Models and heavy data
+models/*.joblib
+models/*.pkl
+data/raw/*
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+
+# System
+.DS_Store
