@@ -11,6 +11,7 @@ __pycache__/
 models/*.joblib
 models/*.pkl
 data/raw/*
+data/processed/*
 
 # Airflow
 airflow/logs/
@@ -19,3 +20,5 @@ airflow/airflow.cfg
 
 # System
 .DS_Store
+
+.vscode
